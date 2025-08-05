@@ -31,4 +31,60 @@ React + TailwindCSS 프론트엔드와 Spring Boot 백엔드로 구성되어 있
 
 ---
 
+## 🎥 주요 화면 (Screenshots)
+
+<div align="center">
+
+### 리뷰
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ba02b749-22de-4126-8f51-ca10848135f5" width="300" alt="도서 리뷰" /><br/>
+      <em>도서 리뷰</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7a746815-0028-4672-b8e9-9389360492cf" width="300" alt="모달창" /><br/>
+      <em>모달창</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9dc8940d-1732-4754-845d-2a5bf0eaf514" width="300" alt="리뷰 리스트" /><br/>
+      <em>리뷰 리스트</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8c80de64-ec60-45f1-9ffc-6da7371d9df7" width="300" alt="리뷰 상세" /><br/>
+      <em>리뷰 상세</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/807e789c-38b9-416a-884e-9dfd2f3bf0d4" width="300" alt="리뷰 수정" /><br/>
+      <em>리뷰 수정</em>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+### 독서 기록
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f3ea8ae8-ab28-4589-89b4-3ddc2a4f7868" width="300" alt="독서 타이머" /><br/>
+      <em>독서 타이머</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6eda0605-2f93-40e5-a615-609f1afeea05" width="300" alt="기록 리스트" /><br/>
+      <em>기록 리스트</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8f43cff5-1f43-40c1-bf49-7f60f586a951" width="300" alt="기록 상세" /><br/>
+      <em>기록 상세</em>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
 
