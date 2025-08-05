@@ -14,6 +14,9 @@ public class ReadingRecordDto {
     public static class Request {
         private String title;
         private String author;
+        private String cover;
+        private String isbn13;
+
         private LocalDate startDate;
         private LocalDate endDate;
         private String memo;
@@ -24,8 +27,24 @@ public class ReadingRecordDto {
         private Long id;
         private String title;
         private String author;
+        private String cover;
+
+
         private LocalDate startDate;
         private LocalDate endDate;
         private String memo;
+
+        public static Response from(ReadingRecord record) {
+            return Response.builder()
+                    .id(record.getId())
+                    .title(record.getTitle())
+                    .author(record.getAuthor())
+                    .cover(record.getCover())
+                    .startDate(record.getStartDate())
+                    .endDate(record.getEndDate())
+                    .memo(record.getMemo())
+                    .build();
+        }
+
     }
 }

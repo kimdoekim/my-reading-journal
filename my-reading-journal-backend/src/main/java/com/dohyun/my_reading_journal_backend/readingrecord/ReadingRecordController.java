@@ -23,10 +23,25 @@ public class ReadingRecordController {
         return ResponseEntity.ok(service.findAll());
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<ReadingRecordDto.Response> findById(@PathVariable("id") Long id) {
+        return ResponseEntity.ok(service.findById(id));
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable("id") Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<ReadingRecordDto.Response> updateRecord(
+            @PathVariable("id") Long id,
+            @RequestBody ReadingRecordDto.Request request
+    ) {
+        ReadingRecord updated = service.update(id, request);
+        return ResponseEntity.ok(ReadingRecordDto.Response.from(updated));
+    }
+
 
 }

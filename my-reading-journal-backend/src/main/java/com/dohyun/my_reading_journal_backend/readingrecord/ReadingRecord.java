@@ -18,6 +18,9 @@ public class ReadingRecord {
 
     private String title;
     private String author;
+    private String cover;
+    private String isbn13;
+
     private LocalDate startDate;
     private LocalDate endDate;
 
